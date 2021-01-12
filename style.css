@@ -1,0 +1,296 @@
+img{
+    transition: transform 0.5s ease;
+}
+.rotated{
+    transform: rotate(180deg);
+}
+.redflou{
+    background-color: darkred;
+    font-family: fantasy;
+    line-height: 150%;
+     text-align: center;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+}
+hr{
+ color: darkred;
+ height: 15px;
+background-color: darkred;
+width: 90%;
+}
+.center{
+    text-align: center;
+    text-transform: initial;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none
+}
+#be{
+    font-size: 20px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+#shrift{
+    text-decoration: underline;
+}
+body {
+    padding: 0 ;
+    margin: 0;
+    background-color: rgb(198, 198, 209);
+    }
+#ihi{
+    text-transform: capitalize;
+}
+#blakfon{
+    background-color: rgb(37, 34, 34);
+}
+.link :hover{
+    transition: transform 2s;
+    color: #00000062;
+}
+ul li:first-child{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.olo{
+    float: left; 
+}
+.N2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+#butot {
+    width:90%;
+    background: #b5bdc8;
+    background: linear-gradient(to top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+    font-size: 16px;
+    padding: 10px 20px; 
+    color: #fff; 
+    border: 1px solid #333; 
+    border-radius: 20px; 
+}
+
+.psi{
+    display: inline;
+    text-align: center;
+}
+span{
+    display:block;
+}
+.shrcen{
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+}
+table{
+    margin: auto;
+    border: 8px black;
+    border-style: solid;
+}
+th{
+    border: 5px black;
+    border-style: solid;
+}
+td{
+    border: 5px black;
+    border-style: solid;
+}
+.fon{
+    background: url(Fotodlasayta/fon.jpg) left/760px 100% no-repeat,
+    url(Fotodlasayta/fon2.jpg) right/760px 100% no-repeat;
+    }
+.shadowtext {
+        text-shadow: 3px 3px 6px black, 0 0 1em white; 
+        color: black; 
+        font-size: 2em; 
+       }
+.col{
+    background: url(Fotodlasayta/smeh.jpg) center/100% no-repeat;
+    padding: 10px; 
+    font-size: 1.5em; 
+    word-wrap: break-word; 
+    text-align: center;
+
+    text-shadow: 3px 3px 6px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0); 
+        color: rgb(255, 255, 255); 
+        font-size: 2em; 
+}
+.csgo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: radial-gradient(#f5e502, #dd8501);
+}
+.csgo2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: radial-gradient(#c79200, #c5d300);
+}
+.myguy{
+    display: flex;
+    flex-direction:row;
+}
+.csgob{
+    background: #ffb60f;
+    background: radial-gradient(circle at 80px 40px, #f9eec7, #ffb60f, #ffb60f);
+    padding: 20px;
+}
+.csgob2{
+    background: #fefcea; /* Для старых браузров */
+    background: linear-gradient(to top, #fefcea, #f1da36);
+    padding: 10px;
+    border: 1px solid #333;
+}
+.column-count{
+    -moz-column-count: 2; /* Для Firefox */
+    -webkit-column-count: 2; /* Для Safari и Chrome */
+    column-count: 2;
+    background-color: burlywood;
+}
+.rex{
+    font-size: 20px;
+}
+.column-gap{
+    -moz-column-count: 3; /* Для Firefox */
+    -moz-column-width: 200px;
+    -moz-column-gap: 2em;
+    -webkit-column-count: 3; /* Для Safari и Chrome */
+    -webkit-column-width: 200px;
+    -webkit-column-gap: 2em;
+    column-count: 3;
+    column-width: 200px;
+    column-gap: 2em;
+    background-color: rgb(247, 167, 62);
+}
+.column-rule{
+    -moz-column-count: 3;
+    -moz-column-width: 200px;
+    -moz-column-rule: 1px solid #ccc;
+    -webkit-column-count: 3;
+    -webkit-column-width: 200px;
+    -webkit-column-rule: 1px solid #ccc;
+    column-count: 3;
+    column-width: 200px;
+    column-rule: 1px solid #ccc;
+    background-color: darkmagenta;
+}
+.column-width{
+    -moz-column-count: 3;
+    -moz-column-width: 200px;
+    -webkit-column-count: 3;
+    -webkit-column-width: 200px;
+    column-count: 3;
+    column-width: 200px;
+    background-color: hotpink;
+}
+.box1 { 
+    background: #f0f0f0; /* Цвет фона */
+    padding: 10px; /* Поля */
+    border: 2px solid #000; /* Параметры рамки */
+   }
+   .box2 { 
+    background: #fc0; /* Цвет фона */
+    padding: 10px; /* Поля */
+    border: 2px solid #000; /* Параметры рамки */
+    -moz-box-sizing: border-box; /* Для Firefox */  
+    box-sizing: border-box; /* Ширина блока с полями */
+   }
+.newfon{
+    background: url(Fotodlasayta/fon.jpg) left/760px 100% no-repeat,
+    url(Fotodlasayta/fon2.jpg) right/760px 100% no-repeat;
+}
+textarea {
+    resize: none; 
+}
+.fifka{
+    width: 500px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg); /* Standard syntax */
+}
+.didka{
+    margin-left: 200px;
+    width: 500px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: skewX(30deg); /* IE 9 */
+    -webkit-transform: skewX(30deg); /* Safari */
+    transform: skewX(30deg); /* Standard syntax */
+}
+.NKVD:hover{
+    transition: transform 20s;
+    -webkit-transform: rotateY(13655deg); /* Safari */
+    transform: rotateY(13655deg); /* Standard syntax */
+}
+.KV:hover{
+    transition: transform 2s;
+    -webkit-transform: rotateX(150deg); /* Safari */
+    transform: rotateX(150deg); /* Standard syntax */
+}
+
+
+#growing {
+    transition: fontSize 3s; 
+    transition: color 2s;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+
+  #color {
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+#last{
+    border: none;
+    background-color: rgba(205, 92, 92, 0);
+}
+
+.creature {
+    left: 44%; 
+    width:  200px;
+    height: 400px;
+    background: rgb(0, 0, 0);
+    position: relative;
+   }
+   .creature:before, .creature:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    top: 40px;
+    animation: eye 5s ease-in-out infinite;
+   }
+   .creature:before { left: 55px; }
+   .creature:after { right: 55px; }
+   @keyframes eye {
+    90% { transform: none; }   
+    95% { transform: scaleY(0.1); }
+   }
+
+
+.boxer{
+width: 150px;
+height: 150px;
+position: relative;
+animation: boxing 10s infinite;
+}
+@keyframes boxing{
+    0%{left:0px; background-color: yellow;}
+    50%{left:1300px; background-color: red;}
+    100%{left:0px; background-color: blue;}
+    
+}
+
+.bigText{
+    font-size: 50px;
+}
